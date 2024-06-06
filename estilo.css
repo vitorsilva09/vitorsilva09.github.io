@@ -1,0 +1,110 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#imagem_fundo{
+    background: url(default.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;
+    text-shadow: red;
+}
+#subtitulo {
+    color: white;
+    padding-left:20% ;
+    padding-right:20% ;
+}
+
+#link{
+    color: white;
+    border: 3px white solid;
+    padding:  10px 20px 10px 20px;;
+    
+}
+
+.coluna {
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.centralizado{
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
+.destaque{
+    background-color: rgb(47, 189, 255);
+    width: 100%;
+}
+.destaque1{
+    background-color: rgb(47, 189, 255);
+    width: 100%;
+    
+}
+section{
+    padding: 20px;
+    float: left;
+}
+.quatro {
+    width: 15%;
+    padding: 57px;
+}
+.icone{
+    width: 80px;
+    padding: 50px;
+    
+}
+.tres{
+width: 29%;
+padding: 0 5%;
+}
+.imgeco{
+    width:  90%;
+    height: 20%;
+}
+#logodiv{
+    width: 100%;
+    position: relative ;
+    text-align: left ;
+    padding: 0px;
+}
+#logo{
+    width: 96px;
+    position: absolute;
+   top: 10px;
+   margin-left: 5%;
+}
+#menu{
+  float: right;  
+  margin-right: 5%;
+  list-style: none;
+  margin-top: 0px;
+}
+li{
+float: left;
+padding: 20 10 20 10;
+}
+
+li:hover{
+    background-color: rgb(54, 161, 233);
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
